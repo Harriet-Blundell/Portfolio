@@ -8,17 +8,19 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
 `;
 
 const Title = styled.h1`
-  font-size: 3rem;
+  font-size: 2rem;
   color: #FFFFFF;
   margin: 0px;
   text-align: center;
+  padding-top: 54px;
 `;
 
 const SubTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #FFFFFF;
   text-align: center;
   padding-top: 64px;
