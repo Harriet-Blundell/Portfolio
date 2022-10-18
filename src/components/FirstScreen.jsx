@@ -3,7 +3,7 @@ import displayPicture from '../assets/displayPicture@1x.png'
 
 const Wrapper = styled.div`
   background-color: #27323E;
-  height: 1027px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
