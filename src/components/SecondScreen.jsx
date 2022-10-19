@@ -14,12 +14,14 @@ const Wrapper = styled.div`
 const ContentTitle = styled.h1`
   font-size: 4rem;
   color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const Content = styled.p`
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #FFFFFF;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export default function SecondScreen() {
