@@ -1,15 +1,6 @@
 import styled from 'styled-components';
-import displayPicture from '../assets/displayPicture@1x.png'
-
-const Wrapper = styled.div`
-  background-color: #27323E;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px;
-`;
+import displayPicture from '../assets/displayPicture@1x.png';
+import { Wrapper } from './SharedStyles';
 
 const Title = styled.h1`
   font-size: 2rem;
@@ -38,7 +29,7 @@ const DisplayPicture = styled.img`
 const ScrollDowns = styled.div`
   position: absolute;
   right: 0;
-  bottom: 130px;
+  bottom: 0;
   left: 0;
   margin: auto;
   width:34px;
@@ -74,7 +65,7 @@ const Scroller = styled.div`
 
 export default function firstScreen() {
   return (
-    <Wrapper>
+    <Wrapper primary>
       <DisplayPicture src={displayPicture} />
       <Title>
         HARRIET BLUNDELL
@@ -82,13 +73,11 @@ export default function firstScreen() {
       <SubTitle>
         SOFTWARE ENGINEER
       </SubTitle>
-
       <ScrollDowns>
         <Mousey>
           <Scroller></Scroller>
         </Mousey>
       </ScrollDowns>
-
     </Wrapper>
   )
 }
