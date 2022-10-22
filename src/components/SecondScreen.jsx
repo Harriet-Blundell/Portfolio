@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Wrapper } from './SharedStyles';
+import { Wrapper } from '../SharedStyles';
 
 const ContentTitle = styled.h1`
   font-size: 4rem;
@@ -17,7 +17,7 @@ const Content = styled.p`
 
 export default function SecondScreen() {
   return (
-    <Wrapper secondary>
+    <Wrapper secondary content={"center"}>
       <ContentTitle>Hello,</ContentTitle>
       <Content>
         I’m Harriet. I’m a Mid-Level Software Engineer and Tech Lead, based in North West, England, with over two years experience in web and mobile development applications.

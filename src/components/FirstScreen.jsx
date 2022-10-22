@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import displayPicture from '../assets/displayPicture@1x.png';
-import { Wrapper } from './SharedStyles';
+import { Wrapper } from '../SharedStyles';
 
 const Title = styled.h1`
   font-size: 2rem;
@@ -65,7 +65,7 @@ const Scroller = styled.div`
 
 export default function firstScreen() {
   return (
-    <Wrapper primary>
+    <Wrapper primary content={"center"}>
       <DisplayPicture src={displayPicture} />
       <Title>
         HARRIET BLUNDELL
