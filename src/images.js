@@ -1,0 +1,11 @@
+export const javaScriptLogo = require("./assets/javascript-logo.png");
+export const nextJsLogo = require("./assets/next.png");
+export const nodeLogo = require("./assets/node.png");
+export const html5Logo = require("./assets/html-five.png");
+export const cssLogo = require("./assets/css-three.png");
+export const sassLogo = require("./assets/sass.png");
+export const expressLogo = require("./assets/express.png");
+export const contentfulLogo = require("./assets/contentful.png");
+export const reactLogo = require("./assets/react.png");
+export const handlebarsLogo = require("./assets/handlebars.png");
+export const gatsbyLogo = require("./assets/gatsby.png");
