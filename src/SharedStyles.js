@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${(props) => (props.primary ? "#27323E" : "#212529")};
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  background-color: ${(props) => (props.primary ? "#222a30" : "#212529")};
   justify-content: ${props => props.content};
-  flex-direction: column;
   padding: 20px;
+  height: 100vh;
 `;

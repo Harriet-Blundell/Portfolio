@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <FirstScreen />
-      <SecondScreen />
-      <ThirdScreen />
+      {/* <SecondScreen /> */}
+      {/* <ThirdScreen /> */}
     </>
   );
 }

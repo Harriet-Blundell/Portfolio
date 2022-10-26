@@ -2,8 +2,14 @@ import styled from 'styled-components';
 import displayPicture from '../assets/displayPicture@1x.png';
 import { Wrapper } from '../SharedStyles';
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #FFFFFF;
   margin: 0px;
   text-align: center;
@@ -12,11 +18,12 @@ const Title = styled.h1`
 `;
 
 const SubTitle = styled.h2`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #FFFFFF;
   text-align: center;
   padding-top: 64px;
   font-family: 'Montserrat', sans-serif;
+
 `;
 
 const DisplayPicture = styled.img`
@@ -66,18 +73,20 @@ const Scroller = styled.div`
 export default function firstScreen() {
   return (
     <Wrapper primary content={"center"}>
-      <DisplayPicture src={displayPicture} />
-      <Title>
-        HARRIET BLUNDELL
-      </Title>
-      <SubTitle>
-        SOFTWARE ENGINEER
-      </SubTitle>
-      <ScrollDowns>
-        <Mousey>
-          <Scroller></Scroller>
-        </Mousey>
-      </ScrollDowns>
+      <Container>
+        <DisplayPicture src={displayPicture} />
+        <Title>
+          HARRIET BLUNDELL
+        </Title>
+        <SubTitle>
+          SOFTWARE ENGINEER
+        </SubTitle>
+        <ScrollDowns>
+          <Mousey>
+            <Scroller />
+          </Mousey>
+        </ScrollDowns>
+      </Container>
     </Wrapper>
   )
 }
