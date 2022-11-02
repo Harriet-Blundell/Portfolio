@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Wrapper } from '../SharedStyles';
+import { Wrapper } from '../styles/SharedStyles.styled';
 
 const ContentTitle = styled.h1`
   font-size: 4rem;

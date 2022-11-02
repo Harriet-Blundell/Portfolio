@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Wrapper } from "../SharedStyles";
+import { Wrapper } from "../styles/SharedStyles.styled";
 import styled from "styled-components";
 import {
   javaScriptLogo,
