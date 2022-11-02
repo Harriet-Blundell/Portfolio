@@ -6,6 +6,7 @@ import {
   SubTitle,
   Mousey,
   Scroller,
+  HeadingsContainer,
 } from "../styles/FirstScreen.styled.js";
 import { Wrapper } from "../styles/SharedStyles.styled.js";
 
@@ -14,8 +15,10 @@ export default function firstScreen() {
     <Wrapper primary content={"center"}>
       <Container>
         <DisplayPicture src={displayPicture} />
-        <Title>HARRIET BLUNDELL</Title>
-        <SubTitle>SOFTWARE ENGINEER</SubTitle>
+        <HeadingsContainer>
+          <Title>HARRIET BLUNDELL</Title>
+          <SubTitle>SOFTWARE ENGINEER</SubTitle>
+        </HeadingsContainer>
         <Mousey>
           <Scroller />
         </Mousey>

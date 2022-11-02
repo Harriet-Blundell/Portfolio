@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  justify-content: space-around;
 `;
 
 export const Title = styled.h1`
@@ -11,7 +13,6 @@ export const Title = styled.h1`
   color: #ffffff;
   margin: 0px;
   text-align: center;
-  padding-top: 54px;
   font-family: "Montserrat", sans-serif;
 `;
 
@@ -19,12 +20,11 @@ export const SubTitle = styled.h2`
   font-size: 1.25rem;
   color: #ffffff;
   text-align: center;
-  padding-top: 64px;
   font-family: "Montserrat", sans-serif;
 `;
 
 export const DisplayPicture = styled.img`
-  width: 100%;
+  width: 65%;
   border-radius: 100%;
   border: 5px solid #ffffff;
   @media (min-width: 436px) {
@@ -40,7 +40,7 @@ export const Mousey = styled.div`
   border-radius: 25px;
   opacity: 0.75;
   box-sizing: content-box;
-  margin-top: 110px;
+  // margin-top: 20%;
 `;
 
 export const Scroller = styled.div`
@@ -66,4 +66,8 @@ export const Scroller = styled.div`
       opacity: 0;
     }
   }
+`;
+
+export const HeadingsContainer = styled.div`
+  display: block;
 `;
