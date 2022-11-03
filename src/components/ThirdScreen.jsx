@@ -21,8 +21,8 @@ const Title = styled.h1`
   font-size: 2.5rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 `;
-
 
 export default function ThirdScreen() {
   const skillsImages = [
@@ -73,14 +73,13 @@ export default function ThirdScreen() {
   ];
 
   return (
-    <Wrapper primary content={"flex-start"}>
-      <Title>SKILLS</Title>
+    <Wrapper primary content={"center"}>
       <Swiper
-        spaceBetween={5}
+        spaceBetween={10}
         slidesPerView={3}
         pagination={{ clickable: true, dynamicBullets: true }}
       >
-        {skillsImages.map((item, i) => {
+        {skillsImages.map((item) => {
           return (
             <SwiperSlide>
               <img src={item.imageSrc} alt={item.imageAlt}></img>
