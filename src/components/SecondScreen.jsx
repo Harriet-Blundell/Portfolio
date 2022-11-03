@@ -1,27 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Wrapper } from '../styles/SharedStyles.styled';
-
-const ContentTitle = styled.h1`
-  font-size: 4rem;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-`;
-
-const Content = styled.p`
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-`;
+import { Container, ContentTitle, Content } from '../styles/SecondScreen.styled.js';
 
 export default function SecondScreen() {
   return (
     <Wrapper secondary content={"center"}>
-      <ContentTitle>Hello,</ContentTitle>
-      <Content>
-        I’m Harriet. I’m a Mid-Level Software Engineer and Tech Lead, based in North West, England, with over two years experience in web and mobile development applications.
-      </Content>
+      <Container>
+        <ContentTitle>Hello,</ContentTitle>
+        <Content>
+          I’m Harriet. I’m a Mid-Level Software Engineer and Tech Lead, based in North West, England, with over two years experience in web and mobile development applications.
+        </Content>
+      </Container>
     </Wrapper>
   )
 }
