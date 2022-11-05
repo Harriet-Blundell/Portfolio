@@ -7,15 +7,17 @@ import "swiper/css";
 
 export default function ThirdScreen() {
   return (
-    <Wrapper primary content={"center"}>
-      <Swiper
-        slidesPerView={3}
-        grabCursor={true}
-        centeredSlides={true}
-      >
+    <Wrapper
+      primary
+      alignItem="flex-start"
+      justifyContent="center"
+      flexWrap="wrap"
+    >
+      <Title>SKILLS</Title>
+      <Swiper className="swiper-container" slidesPerView={3} grabCursor={true}>
         {skillsImages.map((item) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide width="363.333px" padding-left="10%">
               <img src={item.imageSrc} alt={item.imageAlt}></img>
             </SwiperSlide>
           );
@@ -24,5 +26,3 @@ export default function ThirdScreen() {
     </Wrapper>
   );
 }
-
-/* IMPLEMENT SWIPER */
