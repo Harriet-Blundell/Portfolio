@@ -12,7 +12,7 @@ import { Wrapper } from "../styles/SharedStyles.styled.js";
 
 export default function firstScreen() {
   return (
-    <Wrapper primary content={"center"}>
+    <Wrapper primary justifyContent="center">
       <Container>
         <DisplayPicture src={displayPicture} />
         <HeadingsContainer>

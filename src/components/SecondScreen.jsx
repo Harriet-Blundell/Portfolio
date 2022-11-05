@@ -4,7 +4,7 @@ import { Container, ContentTitle, Content } from '../styles/SecondScreen.styled.
 
 export default function SecondScreen() {
   return (
-    <Wrapper secondary content={"center"}>
+    <Wrapper secondary justifyContent="center" alignItem="center">
       <Container>
         <ContentTitle>Hello,</ContentTitle>
         <Content>
