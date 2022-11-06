@@ -4,7 +4,7 @@ import {
   Container,
   ContentTitle,
   Content,
-} from "../styles/SecondScreen.styled.js";
+} from "../styles/InformationScreen.styled.js";
 
 export default function SecondScreen() {
   return (

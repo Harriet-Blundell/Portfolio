@@ -7,7 +7,7 @@ import {
   Mousey,
   Scroller,
   HeadingsContainer,
-} from "../styles/FirstScreen.styled.js";
+} from "../styles/InitialScreen.styled.js";
 import { Wrapper } from "../styles/SharedStyles.styled.js";
 
 export default function firstScreen() {

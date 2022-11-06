@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Wrapper } from "../styles/SharedStyles.styled";
-import { Title } from "../styles/ThirdScreen.styled.js";
+import { Wrapper, Title } from "../styles/SharedStyles.styled";
 import { skillsImages } from "../utils";
 import "../index.css";
 import "swiper/css";
