@@ -1,13 +1,13 @@
-import FirstScreen from "./components/FirstScreen";
-import SecondScreen from "./components/SecondScreen";
-import ThirdScreen from "./components/ThirdScreen";
+import InitialScreen from "./components/InitialScreen";
+import InformationScreen from "./components/InformationScreen";
+import SkillsScreen from "./components/SkillsScreen";
 
 function App() {
   return (
     <>
-      <FirstScreen />
-      <SecondScreen />
-      <ThirdScreen />
+      <InitialScreen />
+      <InformationScreen />
+      <SkillsScreen />
     </>
   );
 }
