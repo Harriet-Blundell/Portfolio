@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Wrapper } from "../styles/SharedStyles.styled";
 import { Title } from "../styles/ThirdScreen.styled.js";
 import { skillsImages } from "../utils";
+import "../index.css";
 import "swiper/css";
 
 export default function ThirdScreen() {
@@ -14,10 +15,28 @@ export default function ThirdScreen() {
       flexWrap="wrap"
     >
       <Title>SKILLS</Title>
-      <Swiper className="swiper-container" slidesPerView={3} grabCursor={true}>
+      <Swiper
+        className="swiper-container"
+        grabCursor={true}
+        pagination={{
+          clickable: true
+        }}
+        breakpoints={{
+          436: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+        }}
+      >
         {skillsImages.map((item) => {
           return (
-            <SwiperSlide width="363.333px" padding-left="10%">
+            <SwiperSlide
+              className="swiper-slide-container"
+              width="363.333px"
+              padding-left="10%"
+            >
               <img src={item.imageSrc} alt={item.imageAlt}></img>
             </SwiperSlide>
           );

@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
-.swiper-container {
-  padding-left: 16% !important;
+.swiper-slide-container {
+  display: flex;
+  justify-content: center;
 }
