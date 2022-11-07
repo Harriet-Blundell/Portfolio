@@ -13,7 +13,7 @@ export default function ThirdScreen() {
       justifyContent="center"
       flexWrap="wrap"
     >
-      <Title>SKILLS</Title>
+      <Title paddingTop="100px">SKILLS</Title>
       <Swiper
         className="swiper-container"
         grabCursor={true}
@@ -34,7 +34,6 @@ export default function ThirdScreen() {
             <SwiperSlide
               className="swiper-slide-container"
               width="363.333px"
-              padding-left="10%"
             >
               <img src={item.imageSrc} alt={item.imageAlt}></img>
             </SwiperSlide>

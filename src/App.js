@@ -1,6 +1,7 @@
 import InitialScreen from "./components/InitialScreen";
 import InformationScreen from "./components/InformationScreen";
 import SkillsScreen from "./components/SkillsScreen";
+import ProjectsScreen from "./components/ProjectsScreen";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <InitialScreen />
       <InformationScreen />
       <SkillsScreen />
+      <ProjectsScreen />
     </>
   );
 }
