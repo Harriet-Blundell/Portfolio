@@ -22,7 +22,7 @@ export default function ThirdScreen() {
         }}
         breakpoints={{
           436: {
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           768: {
             slidesPerView: 3,
