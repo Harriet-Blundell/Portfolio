@@ -15,7 +15,6 @@ export default function ThirdScreen() {
     >
       <Title paddingTop="100px">SKILLS</Title>
       <Swiper
-        className="swiper-container"
         grabCursor={true}
         pagination={{
           clickable: true
