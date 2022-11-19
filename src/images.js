@@ -9,3 +9,4 @@ export const contentfulLogo = require("./assets/contentful.png");
 export const reactLogo = require("./assets/react.png");
 export const handlebarsLogo = require("./assets/handlebars.png");
 export const gatsbyLogo = require("./assets/gatsby.png");
+export const portfolioImg = require("./assets/learn-coding-online-for-free 1.png");
