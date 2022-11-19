@@ -16,9 +16,6 @@ export default function ThirdScreen() {
       <Title paddingTop="100px">SKILLS</Title>
       <Swiper
         grabCursor={true}
-        pagination={{
-          clickable: true
-        }}
         breakpoints={{
           436: {
             slidesPerView: 2,
