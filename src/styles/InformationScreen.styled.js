@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -8,13 +8,13 @@ export const Container = styled.div`
 
 export const ContentTitle = styled.h1`
   font-size: 4rem;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const Content = styled.p`
   font-size: 1.5rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;

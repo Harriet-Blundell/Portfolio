@@ -43,6 +43,4 @@ export const BottomText = styled.p`
   font-size: 0.9rem;
 `;
 
-export const ProjectImage = styled.img`
-  
-`;
+export const ProjectImage = styled.img``;

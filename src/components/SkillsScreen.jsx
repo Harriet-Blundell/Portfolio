@@ -27,10 +27,7 @@ export default function ThirdScreen() {
       >
         {skillsImages.map((item) => {
           return (
-            <SwiperSlide
-              className="swiper-slide-container"
-              width="363.333px"
-            >
+            <SwiperSlide className="swiper-slide-container" width="363.333px">
               <img src={item.imageSrc} alt={item.imageAlt}></img>
             </SwiperSlide>
           );

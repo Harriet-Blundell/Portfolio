@@ -40,7 +40,6 @@ export const Mousey = styled.div`
   border-radius: 25px;
   opacity: 0.75;
   box-sizing: content-box;
-  // margin-top: 20%;
 `;
 
 export const Scroller = styled.div`
