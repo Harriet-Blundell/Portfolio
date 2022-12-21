@@ -22,7 +22,7 @@ export default function ProjectsScreen() {
           436: {
             slidesPerView: 1,
           },
-          1125: {
+          1025: {
             slidesPerView: 2,
           },
         }}
